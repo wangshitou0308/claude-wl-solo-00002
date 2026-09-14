@@ -1,0 +1,25 @@
+{
+  "name": "rtl-cosigner",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "医院核医学科 放射性薄层色谱 (radio-TLC) 放行前归算台 — 纯前端离线",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "selftest": "node scripts/selftest.mjs"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.3",
+    "@types/react-dom": "18.3.0",
+    "@vitejs/plugin-react": "4.3.1",
+    "esbuild": "0.21.5",
+    "typescript": "5.5.4",
+    "vite": "5.4.2"
+  }
+}
